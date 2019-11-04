@@ -1,3 +1,5 @@
+set "CMAKE_GENERATOR=NMake Makefiles"
+
 mkdir build
 cd build
 
