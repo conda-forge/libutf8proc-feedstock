@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export CMAKE_GENERATOR="Unix Makefiles"
+
 mkdir build
 cd build
 
