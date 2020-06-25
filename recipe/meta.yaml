@@ -10,7 +10,7 @@ source:
   sha256: d4e8dfc898cfd062493cb7f42d95d70ccdd3a4cd4d90bec0c71b47cca688f1be
 
 build:
-  number: 0
+  number: 1
   run_exports:
     # Appears to have pretty good compatibility.
     # ref: https://abi-laboratory.pro/?view=timeline&l=utf8proc
@@ -20,6 +20,7 @@ requirements:
   build:
     - {{ compiler('c') }}
     - cmake
+    - make
   host:
 
 test:
