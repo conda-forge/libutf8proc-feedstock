@@ -5,7 +5,7 @@ Home: https://juliastrings.github.io/utf8proc/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: a clean C library for processing UTF-8 Unicode data
 
@@ -174,4 +174,5 @@ Feedstock Maintainers
 * [@jakirkham](https://github.com/jakirkham/)
 * [@mingwandroid](https://github.com/mingwandroid/)
 * [@nehaljwani](https://github.com/nehaljwani/)
+* [@xhochy](https://github.com/xhochy/)
 
