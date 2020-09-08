@@ -7,7 +7,7 @@ cd build
 
 export BUILD_TYPE="Release"
 
-cmake .. -G "${CMAKE_GENERATOR}" \
+cmake ${CMAKE_ARGS} .. -G "${CMAKE_GENERATOR}" \
   -DBUILD_SHARED_LIBS=ON \
   -DCMAKE_BUILD_TYPE="${BUILD_TYPE}" \
   -DCMAKE_INSTALL_PREFIX="${PREFIX}"
