@@ -5,9 +5,13 @@ Home: https://juliastrings.github.io/utf8proc/
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libutf8proc-feedstock/blob/master/LICENSE.txt)
 
 Summary: a clean C library for processing UTF-8 Unicode data
+
+Development: https://github.com/JuliaStrings/utf8proc
+
+Documentation: https://juliastrings.github.io/utf8proc/doc/
 
 utf8proc is a small, clean C library that provides Unicode normalization,
 case-folding, and other operations for data in the UTF-8 encoding
