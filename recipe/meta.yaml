@@ -10,14 +10,13 @@ source:
   sha256: 18c1626e9fc5a2e192311e36b3010bfc698078f692888940f1fa150547abb0c1
 
 build:
-  number: 0
+  number: 1
   run_exports:
-    # Appears to have pretty good compatibility.
-    # ref: https://abi-laboratory.pro/?view=timeline&l=utf8proc
-    - {{ pin_subpackage('libutf8proc', max_pin='x') }}
+    - {{ pin_subpackage('libutf8proc', max_pin='x.x') }}
 
 requirements:
   build:
+    - {{ stdlib('c') }}
     - {{ compiler('c') }}
     - cmake
     - make
