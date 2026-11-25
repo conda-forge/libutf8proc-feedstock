@@ -10,7 +10,7 @@ source:
   sha256: f564011d38b2888d583d510b08e69ffa15aa117155db1b9b49ef1dfe1fa25111
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage('libutf8proc', max_pin='x.x') }}
 
